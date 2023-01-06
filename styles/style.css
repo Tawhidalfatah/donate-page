@@ -221,3 +221,41 @@ input[type="number"] {
     margin-bottom: 100px;
 }
 
+/* updates section  */
+
+.update-title{
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.update-div {
+    margin: 0 600px 30px;
+}
+
+.update-para {
+    padding-top: 30px;
+}
+
+.section-update {
+    text-align: center;
+}
+
+#email {
+    width: 18%;
+    background-color: #d9d9d9;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    height: 50px;
+}
+
+#submit {
+    width: 8%;
+    color: white;
+    background-color: #FB5A55;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    height: 50px;
+     
+}
