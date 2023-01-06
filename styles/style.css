@@ -3,27 +3,30 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* header section  */
+
 header {
-    
-    background: url(/images/donation13.jpg) ;
+
+    background: url(/images/donation13.jpg);
     background-repeat: no-repeat;
-    
+
     text-align: center;
     background-size: cover;
     background-blend-mode: normal;
-    
-    
+
+
 }
 
 .header-title {
     padding-top: 300px;
-    padding-bottom: 50px ;
+    padding-bottom: 40px;
     font-size: 2.5em;
     color: white;
 }
 
 .header-para {
-    padding-bottom: 50px;
+    margin: 0 600px;
+    padding-bottom: 40px;
     color: white;
 }
 
@@ -34,6 +37,77 @@ header {
     border: 0;
     border-radius: 5px;
     height: 50px;
-    width: 8%;
-    margin-bottom: 200px;
+    width: 7%;
+    margin-bottom: 150px;
+}
+
+
+/* Donate Section  */
+
+.section-donate {
+    text-align: center;
+}
+
+.donate-header {
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+.donate-para {
+    margin: 0 600px 30px;
+}
+
+.donate-button {
+    margin-top: 30px;
+}
+
+.boxed label {
+    display: inline-block;
+    height: 70px;
+    width: 80px;
+    margin-top: 20px;
+    margin-right: 50px;
+    padding: 40px 20px 5px 20px;
+    font-size: 25px;
+    border: none 2px #ccc;
+
+    background-color: #fafafa;
+}
+
+
+
+.boxed input[type="radio"] {
+    display: none;
+    
+
+}
+
+.boxed input[type="radio"]:checked+label {
+    border: solid 2px #FB5A55;
+    color: #FB5A55;
+
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+
+input[type="number"] {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    font-size: 18px;
+    margin-top: 30px;
+    padding-left: 150px;
+    padding-right: 50px;
+
+}
+
+#other-amount:focus {
+    outline: none;
 }
