@@ -52,6 +52,7 @@ header {
     margin-top: 100px;
     margin-bottom: 25px;
     font-size: 2em;
+    color: #121212;
 }
 
 .donate-para {
@@ -70,7 +71,11 @@ header {
     margin-right: 50px;
     padding: 40px 20px 5px 20px;
     font-size: 25px;
+    font-weight: 900;
+    color:#707070;
     border: none 2px #ccc;
+    border-radius: 5%;
+    box-sizing: content-box;
 
     background-color: #fafafa;
 }
@@ -79,7 +84,7 @@ header {
 
 .boxed input[type="radio"] {
     display: none;
-    
+
 
 }
 
