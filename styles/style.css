@@ -153,3 +153,71 @@ input[type="number"] {
     padding-bottom: 30px;
     font-weight: 900;
 }
+
+
+
+/* section contribute  */
+
+.section-contribute1 {
+
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.images1 {
+   width: 500px;
+   height: 400px;
+   margin-right: 400px;
+   margin-left: 100px;
+}
+
+.images2 {
+   
+   width: 500px;
+   height: 400px;
+   margin-left: 400px;
+   margin-right: 100px;
+}
+
+.contribute-div1 {
+    margin-left: 300px;
+}
+
+.contribute-div2 {
+    margin-right: 300px;
+}
+
+.contribute-btn {
+    width: 30%;
+    color: white;
+    background-color: #FB5A55;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    height: 50px;
+    
+    
+}
+
+.contribute-heading {
+    padding-bottom: 30px;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.contribute-para {
+    padding-bottom: 30px;
+}
+
+.section-contribute2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
