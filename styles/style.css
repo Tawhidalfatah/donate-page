@@ -9,13 +9,15 @@ header {
 
     background: url(../images/donation13.jpg);
     background-repeat: no-repeat;
-
     text-align: center;
     background-size: cover;
     background-blend-mode: normal;
+    padding-bottom: 150px;
 
 
 }
+
+
 
 .header-title {
     padding-top: 300px;
@@ -38,8 +40,10 @@ header {
     border-radius: 5px;
     height: 50px;
     width: 7%;
-    margin-bottom: 150px;
+    
+   
 }
+/* margin-bottom: 150px; */
 
 
 /* Donate Section  */
@@ -117,4 +121,35 @@ input[type="number"] {
 
 #other-amount:focus {
     outline: none;
+}
+
+/* Donate plans  */
+
+.donate-plan {
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;
+    margin: 100px 200px;
+ 
+}
+
+.resource-food {
+    background-color: #edf5f6;
+    padding: 50px 50px 30px;
+}
+
+.resource-shelter {
+    background-color: #ffeeee;
+    padding: 50px 50px 30px;
+}
+
+.resource-education {
+    background-color: #fff4d6;
+    padding: 50px 50px 30px;
+}
+
+.resource-title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 900;
 }
